@@ -1,0 +1,236 @@
+.App {
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.PostElement{
+  width: 100%;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  padding-bottom: 10px;
+}
+
+.PostCode{
+  background-color: #edf4ff;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.CreatePostBtn{
+
+  width: 100%;
+}
+
+.AppHeader {
+  padding: 15px;
+  text-align: center;
+  background-color: rgb(224, 236, 255);
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.Headerlink {
+  display: inline-block;
+  margin: 0 2%;
+}
+
+.PostStats {
+  text-align: left;
+  margin: 0 0 0 1%;
+}
+
+.PostSearchForm{
+  width: 100%;
+}
+
+.SearchInput{
+  width: 92%;
+}
+
+.PostViewStats{
+  text-align: left;
+  margin: 0 0 0 0;
+}
+
+.PostViewCode{
+  background-color: #edf4ff;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  text-align: left;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px 5px 5px 5px;
+}
+
+pre {
+  overflow-x: auto;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+
+.PostEditCode{
+  background-color: #edf4ff;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  text-align: left;
+  width: 100%;
+  padding: 5px 5px 5px 5px;
+  max-height: 800px;
+  height: 500px;
+  
+}
+
+.PostEditTxtAreaCode{
+  background-color: #edf4ff;
+  width: 100%;
+  height: 100%;
+  box-sizing:border-box;
+  resize: none;
+}
+
+.PostEditHeader{
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.PostEditTitle{
+  width: 100%;
+}
+
+.PostViewDescription {
+  max-width: 1000px;
+  text-align: left;
+}
+
+.PostEditTxtAreaDesc{
+  width: 100%;
+  height: 100px;
+  resize: none;
+}
+
+.Backlink{
+  margin-right: 100%;
+  text-align: left;
+}
+
+.delete-button{
+  margin-right: 100%;
+}
+
+.PostViewHeader {
+  display: block;
+}
+
+.PCAtextarea{
+  width: 100%;
+  max-height: 400px;
+  height: 150px;
+  resize: none;
+}
+
+.PCAstats{
+  text-align: left;
+}
+
+.PostCommentEl{
+  
+  text-align: left;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+.CommentHeader{
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+  background-color: rgb(245, 245, 245);
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.CommentTxt {
+  font-size: 15px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.PostView{
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  padding-bottom: 10px;
+}
+
+.PostViewCommentsTextarea{
+  width: 100%;
+}
+
+.EditCommentTxtarea{
+  width: 99%;
+  max-height: 400px;
+  height: 50px;
+  resize: none;
+}
+
+.RegisterCont {
+  width: 100%;
+  text-align: left;
+  font-size: 20px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.RegisterInputTxt{
+  width: 100%;
+  height: 20px;
+}
+
+.RegisterSubmit {
+ margin-right: 100%;
+}
+
+.Register {
+  max-width: 1000px;
+  width: 100%;
+}
